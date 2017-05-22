@@ -7,7 +7,7 @@ block contact
             div.email
                 form(action='mailto:someone@example.com' method='post' enctype='text/plain')
                     p Name:
-                        input(type='text' name='name' placeholder='ex: John Kim')
+                        input(type='text' name='name' placeholder='John Kim')
                     p E-mail:
                         input(type='text' name='mail' placeholder='someone@example.com')
                     p Comment:
@@ -15,6 +15,9 @@ block contact
                         textarea(id="subject" name="subject" placeholder="Write something.." style="height:200px")
                     input(type="submit" value="Send")
                     input(type="reset" value="Reset")
-            h4 You can also contact me at (647) 447 2164
+            h4 Phone Number:
+                a(href='tel: 647-447-2164')  (647) 447 2164
+            h4 Location:
+                a(href='https://www.google.ca/maps/place/4+Riverplace+Crescent,+Brampton,+ON+L6P+2N2/@43.777212,-79.681592,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3ccc148b80b9:0xc05504480c8fb004!8m2!3d43.7772081!4d-79.6794033')  4 Riverplace Crest, Brampton ON
 
 

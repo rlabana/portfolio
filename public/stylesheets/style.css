@@ -1,10 +1,10 @@
 html{
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
 }
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #d9d9d9;
   color:#f3eff5;
@@ -34,7 +34,7 @@ img{
   color: #ffffff;
 }
 #contact{
-  background-color: #21FA90;
+  background-color: #d9d9d9;
 }
 .email{
   border-radius: 5px;
@@ -66,7 +66,7 @@ input[type=reset]{
   margin-left: 12px;
 }
 input[type=submit]:hover, [type=reset]:hover {
-  background-color: #45a049;
+  background-color: #6E7271;
 }
 textarea {
   width: 100%;
@@ -79,10 +79,16 @@ textarea {
   resize: vertical;
 }
 footer{
-  background-color: #D9D9D9;
+  background-color: #ffffff;
   padding: 1%;
   padding-top: 2%;
   text-align: center;
+}
+a.link{
+  color: #f3eff5;
+}
+.subTitle{
+  text-indent: 50px;
 }
 /*
 html{
