@@ -1,0 +1,20 @@
+extends interface
+
+block contact
+    div.container#contact
+        h2 Contact
+        div(class='discription')
+            div.email
+                form(action='mailto:someone@example.com' method='post' enctype='text/plain')
+                    p Name:
+                        input(type='text' name='name' placeholder='ex: John Kim')
+                    p E-mail:
+                        input(type='text' name='mail' placeholder='someone@example.com')
+                    p Comment:
+                        br
+                        textarea(id="subject" name="subject" placeholder="Write something.." style="height:200px")
+                    input(type="submit" value="Send")
+                    input(type="reset" value="Reset")
+            h4 You can also contact me at (647) 447 2164
+
+
