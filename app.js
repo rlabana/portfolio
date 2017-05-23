@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var player = require('./routes/player');
+var weather = require('./routes/weatherApp');
 
 var app = express();
 
@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/player',player);
+app.use('/weather', weather);
 
 
 

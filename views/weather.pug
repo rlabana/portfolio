@@ -1,0 +1,56 @@
+extends toolbar
+
+block leaderBoard
+    h1= webPageName
+    p #{slogan}
+block main-header
+    input(id="location_searchbox" class="searchbar" type="text" name="search" placeholder="Enter a City ie.Toronto" onkeypress="handle_search(event)")
+    button(class="btn" type="button" onclick='cityFunction()') Submit
+    div.location
+        h2
+            span(id="city") Brampton, CA
+    div.curTemp
+        p(id='des')
+        img(class="imgICON" id="icon" width="100px" src= "")
+        h1
+            span(class="temp" id="temp") temp
+    div.detail
+        p(id ="wind")
+        p(id="speed")
+        p(id ="humidity")
+        p(id="rise")
+        p(id="set")
+        p pressure
+        p visibility
+        p ceiling
+    div.short-term
+        table
+            tr
+                th First Name
+                th Last Name
+                th Points
+            tr
+                td Jill
+                td Smith
+                td 50
+            tr
+                td Eve
+                td Jackson
+                td 94
+    div.five-day
+        table
+            tr
+                th First Name
+                th Last Name
+                th Points
+            tr
+                td Jill
+                td Smith
+                td 50
+            tr
+                td Eve
+                td Jackson
+                td 94
+block main-footer
+    p slogan provided by
+        a(href='http://newsjunkienow.tripod.com/slogans.htm') Slogans - News Junkie - Tripod

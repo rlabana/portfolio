@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.short-term, .five-day{
+    overflow-x:auto;
+}
+/*
+.temp, .unit{
+    background-color: #6E7271;
+}
+.temp{
+    width: 60px;
+}
+.unit{
+    width: 80px;
+}
+*/
